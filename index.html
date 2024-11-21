@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Diamante Azul do Pastor Joel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica Diamante Azul do Pastor Joel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#info">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <img src="images/doctor.jpg" alt="Imagem de Doutor" class="doctor-img">
+        <h2>Bem-vindo à Clínica Diamante Azul</h2>
+        <p>Aqui cuidamos de você com ciência, fé e dedicação.</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A Clínica Diamante Azul, fundada pelo Pastor Joel, é um espaço onde fé e saúde se unem para oferecer o melhor cuidado médico para todos.</p>
+    </section>
+
+    <section id="login">
+        <h2>Área de Login</h2>
+        <div class="login-container">
+            <div class="login-box">
+                <h3>Login do Paciente</h3>
+                <form id="patient-login">
+                    <label for="patient-email">Email:</label>
+                    <input type="email" id="patient-email" required>
+                    <label for="patient-password">Senha:</label>
+                    <input type="password" id="patient-password" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+            <div class="login-box">
+                <h3>Login do Médico</h3>
+                <form id="doctor-login">
+                    <label for="doctor-email">Email:</label>
+                    <input type="email" id="doctor-email" required>
+                    <label for="doctor-password">Senha:</label>
+                    <input type="password" id="doctor-password" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="hidden">
+        <h2>Informações Adicionais</h2>
+        <p>Parabéns! Agora você tem acesso exclusivo a informações sobre nossos serviços, horários de atendimento e muito mais.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Clínica Diamante Azul do Pastor Joel - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
